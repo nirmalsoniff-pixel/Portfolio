@@ -170,9 +170,9 @@ const contactConfig = {
     YOUR_FONE: "+91 97844 92973",
     description:
         "I'm always interested in discussing Software Engineering, AI, Machine Learning, Cloud Computing, internships, freelance opportunities, or exciting projects. Feel free to connect with me.",
-    YOUR_SERVICE_ID: "service_id",
-    YOUR_TEMPLATE_ID: "template_id",
-    YOUR_USER_ID: "user_id",
+    YOUR_SERVICE_ID: "service_dj3rufx",
+    YOUR_TEMPLATE_ID: "template_ayega7k",
+    YOUR_USER_ID: "GgodkuyrZR8AjWiS-",
 };
 
 const socialprofils = {
