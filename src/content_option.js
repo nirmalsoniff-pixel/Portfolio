@@ -121,21 +121,25 @@ const dataportfolio = [
         link: "https://github.com/nirmalsoniff-pixel/Jarvis-AI",
     },
     {
-        img: "/images/project/nlp.png",
-        title: "NLP Report Summarizer",
-        tech: "Python • NLP • Transformers",
-        description:
-            "Generates concise summaries from large documents using Natural Language Processing.",
-        link: "https://github.com/nirmalsoniff-pixel/NLP-Report-Summarizer",
-    },
+    img: "/images/project/nlp.png",
+    title: "NLP Report Summarizer",
+    tech: "Python • NLP • Transformers",
+    description:
+        "Generates concise summaries from large documents using Natural Language Processing.",
+    link: "YOUR_GITHUB_LINK",
+},
     {
-        img: "/images/project/codeconverter.png",
-        title: "Deep Learning Code Converter",
-        tech: "Python • TensorFlow • Deep Learning",
-        description:
-            "AI model for converting Python code to C and C to Python using deep learning.",
-        link: "https://github.com/nirmalsoniff-pixel/MultiLanguage-Code-Converter",
-    },
+    img: "/images/project/codeconverter.png",
+
+    title: "Python ↔ C Code Converter",
+
+    tech: "Python • TensorFlow • Deep Learning",
+
+    description:
+        "AI-powered code translation system that converts Python code to C and C code to Python using deep learning techniques.",
+
+    link: "https://github.com/nirmalsoniff-pixel/Python-C-Code-Translator",
+},
     /*{
         img: "/images/project/jobportal.png",
         title: "Job Portal Application",
