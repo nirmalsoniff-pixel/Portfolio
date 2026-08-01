@@ -94,3 +94,140 @@ code {
 .color_sec {
     color: var(--secondary-color);
 }
+
+
+html,
+body{
+
+overflow-x:hidden;
+
+}
+
+*{
+
+box-sizing:border-box;
+
+}
+
+img{
+
+max-width:100%;
+
+height:auto;
+
+}
+
+@media(max-width:768px){
+
+.display-4{
+
+font-size:2rem;
+
+}
+
+h1{
+
+font-size:2rem;
+
+}
+
+h2{
+
+font-size:1.7rem;
+
+}
+
+p{
+
+font-size:16px;
+
+line-height:1.7;
+
+}
+
+}
+
+/* ===========================
+   GLOBAL DESIGN SYSTEM
+=========================== */
+
+:root{
+
+  --primary:#00e5ff;
+
+  --secondary:#111111;
+
+  --card:#181818;
+
+  --text:#ffffff;
+
+  --radius:18px;
+
+  --transition:.35s ease;
+
+  --shadow:0 15px 35px rgba(0,0,0,.25);
+
+}
+
+*{
+
+box-sizing:border-box;
+
+}
+
+section{
+
+padding:90px 0;
+
+}
+
+img{
+
+max-width:100%;
+
+display:block;
+
+}
+
+button,
+.btn{
+
+border-radius:12px;
+
+transition:.35s ease;
+
+}
+
+.card{
+
+border-radius:18px;
+
+}
+
+:root{
+
+--radius:18px;
+
+--transition:.35s;
+
+}
+
+img{
+
+max-width:100%;
+
+display:block;
+
+}
+
+button{
+
+border-radius:12px;
+
+}
+
+section{
+
+padding:80px 0;
+
+}

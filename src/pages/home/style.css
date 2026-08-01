@@ -86,28 +86,44 @@ section {
     font-weight: 700;
 }
 
-.intro_sec .text h3 {
-    font-size: 16px;
-    font-weight: 700;
+.intro_sec .text h3{
+    font-size:28px;
+    font-weight:600;
+    color:#00d9ff;
+    margin-top:20px;
+    margin-bottom:25px;
 }
 
 .intro_sec .h_bg-image {
+    width: 50%;
+    min-height: 100vh;
+
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center center;
-    background-color: transparent;
-    min-height: 700px;
-    position: relative;
+    background-position: center;
 
-    filter: none;
-    opacity: 1;
+    position: relative;
+    overflow: hidden;
+
+    border-radius: 30px 0 0 30px;
+
+    box-shadow:
+        -15px 20px 50px rgba(0, 0, 0, 0.45);
+
+    transition: all 0.5s ease;
+
+    filter: brightness(1.05) contrast(1.08) saturate(1.1);
 
     image-rendering: auto;
     backface-visibility: hidden;
-    transform: translateZ(0);
     -webkit-backface-visibility: hidden;
+    transform: translateZ(0);
 }
-.ac_btn {
+
+.intro_sec .h_bg-image:hover {
+    transform: scale(1.02);
+    filter: brightness(1.08) contrast(1.1) saturate(1.15);
+}.ac_btn {
     padding: 4px 19px;
     color: var(--secondary-color);
     position: relative;
@@ -253,4 +269,112 @@ section {
     backface-visibility: hidden;
     transform: translateZ(0);
     -webkit-backface-visibility: hidden;
+}
+
+/* =========================
+   Mobile Hero Section
+========================= */
+
+@media screen and (max-width: 991px){
+
+    .intro_sec{
+
+        display:flex;
+        flex-direction:column;
+
+        height:auto;
+        min-height:auto;
+
+        margin-top:20px;
+
+        padding:30px 20px;
+    }
+
+    .intro_sec .text{
+
+        width:100%;
+        order:2;
+
+        text-align:center;
+    }
+
+    .intro_sec .h_bg-image{
+
+        width:100%;
+        height:380px;
+
+        min-height:380px;
+
+        order:1;
+
+        border-radius:20px;
+
+        margin-bottom:30px;
+
+        background-position:center top;
+    }
+
+    .hero_title{
+
+        font-size:40px;
+    }
+
+    .hero_typewriter{
+
+        font-size:22px;
+    }
+
+    .hero_description{
+
+        font-size:16px;
+
+        max-width:100%;
+    }
+
+    .hero_buttons{
+
+        justify-content:center;
+    }
+
+    .hero_btn{
+
+        width:100%;
+
+        margin-bottom:15px;
+    }
+
+}
+
+@media(max-width:576px){
+
+.hero_btn{
+
+width:100%;
+
+padding:14px;
+
+}
+
+}
+
+@keyframes floatImage {
+
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-12px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+
+}
+
+.h_bg-image {
+
+    animation: floatImage 5s ease-in-out infinite;
+
 }

@@ -7,21 +7,23 @@ const meta = {
 };
 
 const introdata = {
-    title: "Hi, I'm Nirmal Barmera",
+    title: "Hi, I'm Nirmal Barmera 👋",
+
     animated: {
-        first: "Software Development Engineer",
-        second: "AI & Machine Learning Engineer",
-        third: "Full Stack Developer",
+        first: "AI & Machine Learning Engineer",
+        second: "Full-Stack Developer",
+        third: "Building AI-Powered Applications",
     },
+
     description:
-        "B.Tech CSE (AI & ML) undergraduate passionate about software engineering, AI, cloud computing, and full-stack development. I enjoy building intelligent applications and solving real-world problems using modern technologies.",
+        "B.Tech CSE (AI & ML) student passionate about Artificial Intelligence, Software Engineering, Cloud Computing, and Full-Stack Development. I build intelligent applications that solve real-world problems and continuously explore modern technologies to create impactful software.",
+
     your_img_url: "/images/nirmal.jpg",
 };
-
 const dataabout = {
     title: "About Me",
     aboutme:
-        "I'm a B.Tech Computer Science (AI & ML) student at Jodhpur Institute of Engineering and Technology. My interests include Software Development, Artificial Intelligence, Machine Learning, Cloud Computing, and Full Stack Development. I enjoy building scalable applications, learning new technologies, and continuously improving my problem-solving skills through real-world projects.",
+        "I'm Nirmal Barmera, a B.Tech Computer Science (AI & Machine Learning) undergraduate at Jodhpur Institute of Engineering and Technology with a strong passion for Software Engineering and Artificial Intelligence. I enjoy transforming ideas into practical, user-focused applications that solve real-world problems.\n\nCurrently, I'm expanding my expertise in Large Language Models (LLMs), Natural Language Processing, Cloud Computing (AWS), and Full-Stack Web Development using React and Django. I continuously explore modern technologies and best practices to build scalable, efficient, and intelligent software.\n\nMy favorite projects involve AI-powered applications, voice assistants, machine learning systems, cloud deployment, and developer productivity tools. I enjoy taking projects from concept to deployment while focusing on clean architecture, performance, and user experience.\n\nMy long-term goal is to become a Software Development Engineer (SDE) specializing in AI-powered products and cloud-native applications, where I can contribute to innovative solutions that create meaningful impact."
 };
 
 const worktimeline = [

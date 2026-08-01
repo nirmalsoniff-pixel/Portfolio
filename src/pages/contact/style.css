@@ -43,3 +43,19 @@ button.btn.ac_btn:hover {
         transform: translateX(100%);
     }
 }
+
+@media(max-width:768px){
+
+.contact__form{
+
+margin-top:30px;
+
+}
+
+.form-control{
+
+margin-bottom:15px;
+
+}
+
+}

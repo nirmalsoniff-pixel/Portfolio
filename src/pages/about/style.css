@@ -98,3 +98,485 @@
         transform: translateZ(0);
     }
 }
+
+@media(max-width:768px){
+
+.about{
+
+text-align:center;
+
+}
+
+.about img{
+
+width:220px;
+
+margin:auto;
+
+}
+
+}
+
+.About-header{
+    padding-top:100px;
+}
+
+@media(max-width:768px){
+
+.about{
+
+text-align:center;
+
+}
+
+.about img{
+
+width:220px;
+
+margin:auto;
+
+}
+
+}
+
+/* ==========================================
+   ADD NEW CSS BELOW THIS LINE
+========================================== */
+
+/* New About Section */
+.about_heading{
+    font-size:42px;
+    font-weight:700;
+    margin-bottom:20px;
+    color:var(--text-color);
+}
+.about_description{
+
+    color:var(--text-color);
+
+    opacity:.9;
+
+    font-size:18px;
+
+    line-height:1.9;
+
+    max-width:900px;
+
+    margin-bottom:50px;
+
+}
+
+.about_grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+    gap:25px;
+    margin-top:20px;
+}
+
+/* ========================================
+        ABOUT SECTION
+======================================== */
+
+.about_heading{
+    font-size:48px;
+    font-weight:700;
+    margin-bottom:20px;
+    color:var(--text-color);
+}
+
+.about_description{
+    max-width:760px;
+    font-size:18px;
+    line-height:1.9;
+    color:var(--text-color);
+    opacity:.88;
+    margin-bottom:50px;
+}
+
+/* ===============================
+        GRID
+================================= */
+
+.about_grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:30px;
+    margin-top:20px;
+}
+
+/* ===============================
+        CARD
+================================= */
+
+.about_card{
+
+    position:relative;
+
+    background:#171717;
+
+    border:1px solid rgba(255,255,255,.08);
+
+    border-radius:22px;
+
+    padding:35px;
+
+    min-height:250px;
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:flex-start;
+
+    transition:.35s ease;
+
+    overflow:hidden;
+
+    box-shadow:0 12px 35px rgba(0,0,0,.30);
+
+}
+
+/* Top Accent Line */
+
+.about_card::before{
+
+    content:"";
+
+    width:70px;
+
+    height:4px;
+
+    background:#00d9ff;
+
+    border-radius:30px;
+
+    margin-bottom:22px;
+
+}
+
+/* Hover */
+
+.about_card:hover{
+
+    transform:translateY(-12px);
+
+    border-color:#00d9ff;
+
+    box-shadow:
+        0 20px 50px rgba(0,217,255,.18);
+
+}
+
+/* Card Heading */
+
+.about_card h4{
+
+    color:#00d9ff;
+
+    font-size:24px;
+
+    font-weight:700;
+
+    margin-bottom:20px;
+
+}
+
+/* List */
+
+.about_card ul{
+
+    list-style:none;
+
+    padding:0;
+
+    margin:0;
+
+}
+
+.about_card li{
+
+    position:relative;
+
+    padding-left:28px;
+
+    margin-bottom:14px;
+
+    color:#d9d9d9;
+
+    font-size:16px;
+
+    line-height:1.7;
+
+}
+
+.about_card li::before{
+
+    content:"✓";
+
+    position:absolute;
+
+    left:0;
+
+    color:#00d9ff;
+
+    font-weight:bold;
+
+}
+
+/* Paragraph */
+
+.about_card p{
+
+    color:#d5d5d5;
+
+    line-height:1.8;
+
+    font-size:16px;
+
+}
+
+/* ========================================
+        TIMELINE
+======================================== */
+
+.timeline_card{
+
+    background:#171717;
+
+    border-left:5px solid #00d9ff;
+
+    border-radius:15px;
+
+    padding:22px 28px;
+
+    margin-bottom:22px;
+
+    transition:.35s;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
+
+}
+
+.timeline_card:hover{
+
+    transform:translateX(8px);
+
+    box-shadow:0 15px 35px rgba(0,217,255,.15);
+
+}
+
+.timeline_title{
+
+    font-size:21px;
+
+    color:#fff;
+
+    font-weight:700;
+
+}
+
+.timeline_company{
+
+    color:#00d9ff;
+
+    margin-top:5px;
+
+    font-weight:600;
+
+}
+
+.timeline_date{
+
+    color:#aaa;
+
+    margin-top:5px;
+
+    font-size:14px;
+
+}
+
+/* ========================================
+        SKILLS
+======================================== */
+
+.progress-title{
+
+    font-size:17px;
+
+    font-weight:600;
+
+    margin-bottom:10px;
+
+    color:#fff;
+
+}
+
+.progress{
+
+    height:10px;
+
+    border-radius:30px;
+
+    background:#252525;
+
+    overflow:hidden;
+
+    margin-bottom:30px;
+
+}
+
+.progress-bar{
+
+    background:linear-gradient(90deg,#00d9ff,#4ef3ff);
+
+    border-radius:30px;
+
+}
+
+.progress-value{
+
+    top:-30px;
+
+    right:0;
+
+    font-size:14px;
+
+    color:#00d9ff;
+
+    font-weight:700;
+
+}
+
+/* ========================================
+        SERVICES
+======================================== */
+
+.service_{
+
+    background:#171717;
+
+    border-radius:18px;
+
+    padding:28px;
+
+    margin-bottom:25px;
+
+    border:1px solid rgba(255,255,255,.08);
+
+    transition:.35s;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.20);
+
+}
+
+.service_:hover{
+
+    transform:translateY(-8px);
+
+    border-color:#00d9ff;
+
+    box-shadow:0 18px 40px rgba(0,217,255,.15);
+
+}
+
+.service__title{
+
+    color:#00d9ff;
+
+    font-size:24px;
+
+    font-weight:700;
+
+    border:none;
+
+    margin-bottom:15px;
+
+}
+
+.service_desc{
+
+    color:#d2d2d2;
+
+    line-height:1.8;
+
+    font-size:16px;
+
+}
+
+/* ========================================
+        MOBILE
+======================================== */
+
+@media(max-width:992px){
+
+.about_heading{
+
+font-size:38px;
+
+}
+
+.about_description{
+
+font-size:16px;
+
+}
+
+.about_grid{
+
+grid-template-columns:1fr;
+
+gap:20px;
+
+}
+
+.about_card{
+
+padding:25px;
+
+min-height:auto;
+
+}
+
+.service_{
+
+padding:22px;
+
+}
+
+.timeline_card{
+
+padding:20px;
+
+}
+
+}
+
+@media(max-width:576px){
+
+.about_heading{
+
+font-size:32px;
+
+}
+
+.about_description{
+
+font-size:15px;
+
+line-height:1.8;
+
+}
+
+.about_card h4{
+
+font-size:21px;
+
+}
+
+.service__title{
+
+font-size:22px;
+
+}
+
+}
