@@ -18,8 +18,7 @@ export const Home = () => {
 
         <div className="intro_sec d-lg-flex align-items-center">
 
-          {/* ================= Profile Image ================= */}
-
+          {/* Profile Image */}
           <motion.div
             className="h_bg-image order-1 order-lg-2"
             style={{
@@ -33,8 +32,7 @@ export const Home = () => {
             }}
           />
 
-          {/* ================= Hero Text ================= */}
-
+          {/* Hero Text */}
           <div className="text order-2 order-lg-1 d-lg-flex justify-content-center">
 
             <div className="align-self-center">
@@ -76,32 +74,37 @@ export const Home = () => {
                   {introdata.description}
                 </p>
 
+                {/* Buttons */}
+
                 <div className="hero_buttons">
 
-                  <Link to="/portfolio">
-                    <button className="hero_btn primary">
-                      🚀 View Projects
-                    </button>
+                  <Link
+                    to="/portfolio"
+                    className="hero_btn primary"
+                  >
+                    🚀 View Projects
                   </Link>
 
-                  <Link to="/contact">
-                    <button className="hero_btn secondary">
-                      📩 Contact Me
-                    </button>
+                  <Link
+                    to="/about"
+                    className="hero_btn secondary"
+                  >
+                    👨‍💻 About Me
                   </Link>
 
+                 <Link to="/contact">
+  <button className="hero_btn contact">
+    📩 Contact Me
+  </button>
+</Link>
                   <a
-  href="/resume.pdf"
-  download="Nirmal_Barmera_Resume.pdf"
-  className="text_2"
->
-  <div id="button_r" className="ac_btn btn">
-    📄 Download Resume
-    <div className="ring one"></div>
-    <div className="ring two"></div>
-    <div className="ring three"></div>
-  </div>
-</a>
+                    href="/resume.pdf"
+                    download="Nirmal_Barmera_Resume.pdf"
+                    className="hero_btn resume"
+                  >
+                    📄 Download Resume
+                  </a>
+
                 </div>
 
               </motion.div>
@@ -111,6 +114,7 @@ export const Home = () => {
           </div>
 
         </div>
+
       </section>
     </HelmetProvider>
   );

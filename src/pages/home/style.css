@@ -271,6 +271,117 @@ section {
     -webkit-backface-visibility: hidden;
 }
 
+.hero_buttons{
+    display:flex;
+    flex-wrap:wrap;
+    gap:14px;              /* space between buttons */
+    margin-top:32px;
+    align-items:center;
+}
+
+.hero_btn{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    padding:10px 22px;     /* smaller buttons */
+    min-width:165px;       /* equal width */
+
+    border:2px solid #00d9ff;
+    border-radius:12px;
+
+    font-size:16px;
+    font-weight:600;
+
+    text-decoration:none;
+
+    transition:.3s ease;
+
+    cursor:pointer;
+}
+
+/* ===========================
+   HERO BUTTON COLORS
+=========================== */
+
+/* Common Hover Effect */
+
+.hero_btn:hover{
+    transform:translateY(-5px);
+    box-shadow:0 12px 25px rgba(0,217,255,.25);
+    text-decoration:none;
+}
+
+/* ===========================
+   VIEW PROJECTS
+=========================== */
+.hero_btn.primary{
+
+    background:#171717;
+    color:#ffffff;
+    border:2px solid #00d9ff;
+
+}
+.hero_btn.primary:hover{
+
+    background:#00d9ff;
+    color:#111;
+    border-color:#00d9ff;
+
+}
+/* ===========================
+   ABOUT ME
+=========================== */
+
+.hero_btn.secondary{
+
+    background:#171717;
+    color:#fff;
+
+}
+
+.hero_btn.secondary:hover{
+
+    background:#ffffff;
+    color:#111;
+    border-color:#ffffff;
+
+}
+
+/* ===========================
+   CONTACT ME
+=========================== */
+
+/* This will only affect Contact */
+
+.hero_buttons a:nth-child(3) .hero_btn:hover,
+.hero_buttons > :nth-child(3).hero_btn:hover{
+
+    background:#22c55e;
+    border-color:#22c55e;
+    color:#fff;
+
+}
+
+/* ===========================
+   RESUME
+=========================== */
+
+.hero_btn.resume{
+
+    background:#171717;
+    color:#fff;
+
+}
+
+.hero_btn.resume:hover{
+
+    background:#7c3aed;
+    border-color:#7c3aed;
+    color:#fff;
+
+}
+
 /* =========================
    Mobile Hero Section
 ========================= */
@@ -331,10 +442,10 @@ section {
         max-width:100%;
     }
 
-    .hero_buttons{
+    /* ==========================
+      HERO BUTTONS
+========================== */
 
-        justify-content:center;
-    }
 
     .hero_btn{
 
@@ -376,5 +487,20 @@ padding:14px;
 .h_bg-image {
 
     animation: floatImage 5s ease-in-out infinite;
+
+}
+
+.hero_btn.contact{
+
+    background:#171717;
+    color:#fff;
+
+}
+
+.hero_btn.contact:hover{
+
+    background:#22c55e;
+    border-color:#22c55e;
+    color:#fff;
 
 }
