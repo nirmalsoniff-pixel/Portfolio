@@ -113,43 +113,54 @@ const services = [
 
 const dataportfolio = [
     {
-        img: "/images/projects/jarvis.png",
+        img: "/images/project/jarvis.png",
+        title: "Jarvis AI Assistant",
+        tech: "Python • Tkinter • Speech Recognition • AI",
         description:
-            "Jarvis AI Assistant - Intelligent desktop assistant capable of automating tasks using AI.",
-        link: "https://github.com/nirmal23jiaiml098-wq",
+            "AI-powered desktop voice assistant with voice recognition, wake-word detection, text-to-speech, and a modern graphical interface.",
+        link: "https://github.com/nirmalsoniff-pixel/Jarvis-AI",
     },
     {
-        img: "/images/projects/nlp.png",
+        img: "/images/project/nlp.png",
+        title: "NLP Report Summarizer",
+        tech: "Python • NLP • Transformers",
         description:
-            "NLP Report Summarizer - Generates concise summaries from large documents using Natural Language Processing.",
-        link: "https://github.com/nirmal23jiaiml098-wq",
+            "Generates concise summaries from large documents using Natural Language Processing.",
+        link: "https://github.com/nirmalsoniff-pixel/NLP-Report-Summarizer",
     },
     {
-        img: "/images/projects/codeconverter.png",
+        img: "/images/project/codeconverter.png",
+        title: "Deep Learning Code Converter",
+        tech: "Python • TensorFlow • Deep Learning",
         description:
-            "Deep Learning Code Converter - AI model for converting Python code to C and C to Python.",
-        link: "https://github.com/nirmal23jiaiml098-wq",
+            "AI model for converting Python code to C and C to Python using deep learning.",
+        link: "https://github.com/nirmalsoniff-pixel/MultiLanguage-Code-Converter",
+    },
+    /*{
+        img: "/images/project/jobportal.png",
+        title: "Job Portal Application",
+        tech: "Django • SQL • HTML • CSS",
+        description:
+            "Platform connecting recruiters and job seekers with authentication and workflow management.",
+        link: "https://github.com/nirmalsoniff-pixel/Job-Portal",
+    },*/
+    {
+        img: "/images/project/cloud.png",
+        title: "AWS Cloud Deployment",
+        tech: "AWS • EC2 • S3 • Cloud",
+        description:
+            "Full-stack application deployed on AWS cloud infrastructure.",
+        link: "https://github.com/nirmalsoniff-pixel/AWS-Cloud-Project",
     },
     {
-        img: "/images/projects/jobportal.png",
+        img: "/images/project/llm.png",
+        title: "LLM Document Analysis",
+        tech: "LLM • Python • AI",
         description:
-            "Job Portal Application - Platform connecting recruiters and job seekers with authentication and workflow management.",
-        link: "https://github.com/nirmal23jiaiml098-wq",
-    },
-    {
-        img: "/images/projects/cloud.png",
-        description:
-            "Cloud Deployment Project - Full-stack application deployed on AWS cloud infrastructure.",
-        link: "https://github.com/nirmal23jiaiml098-wq",
-    },
-    {
-        img: "/images/projects/llm.png",
-        description:
-            "LLM Document Analysis System - AI-powered document analysis and information extraction using Large Language Models.",
-        link: "https://github.com/nirmal23jiaiml098-wq",
+            "AI-powered document analysis and information extraction using Large Language Models.",
+        link: "https://github.com/nirmalsoniff-pixel/LLM-Document-Analysis",
     },
 ];
-
 const contactConfig = {
     YOUR_EMAIL: "Nirmalsoniff@gmail.com",
     YOUR_FONE: "+91 97844 92973",
@@ -161,7 +172,7 @@ const contactConfig = {
 };
 
 const socialprofils = {
-    github: "https://github.com/nirmal23jiaiml098-wq",
+    github: "https://github.com/nirmalsoniff-pixel",
     linkedin: "https://www.linkedin.com/in/nirmal-soni-ab579728b/",
     facebook: "",
     twitter: "",
