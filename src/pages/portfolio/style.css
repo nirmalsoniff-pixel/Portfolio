@@ -257,11 +257,9 @@ font-weight:600;
 }
 
 .hero_btn.secondary{
-
-    background:transparent;
-
-    color:#fff;
-
+    background:#171717 !important;
+    color:#ffffff !important;
+    border:2px solid #00d9ff !important;
 }
 
 .hero_btn.resume{

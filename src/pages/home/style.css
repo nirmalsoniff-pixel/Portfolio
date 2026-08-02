@@ -335,19 +335,11 @@ section {
    ABOUT ME
 =========================== */
 
-.hero_btn.secondary{
-
-    background:#171717;
-    color:#fff;
-
-}
 
 .hero_btn.secondary:hover{
-
-    background:#ffffff;
-    color:#111;
-    border-color:#ffffff;
-
+    background: #22c55e;   /* Green on hover */
+    color: #ffffff;
+    border-color: #22c55e;
 }
 
 /* ===========================
