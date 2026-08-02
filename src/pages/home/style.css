@@ -315,21 +315,23 @@ section {
 /* ===========================
    VIEW PROJECTS
 =========================== */
-.hero_btn.primary{
-
-    background:#171717;
-    color:#ffffff;
-    border:2px solid #00d9ff;
-
-}
-.hero_btn.primary:hover{
-
-    background:#00d9ff;
-    color:#111;
-    border-color:#00d9ff;
-
-}
 /* ===========================
+   VIEW PROJECTS (PRIMARY)
+=========================== */
+.hero_btn.primary {
+    background: #171717 !important;
+    color: #ffffff !important;
+    border: 2px solid #00d9ff !important;
+    transition: all 0.35s ease !important;
+}
+
+.hero_btn.primary:hover {
+    background: #00d9ff !important;
+    color: #111111 !important;
+    border-color: #00d9ff !important;
+    transform: translateY(-4px);
+    box-shadow: 0 12px 30px rgba(0, 217, 255, 0.35);
+}/* ===========================
    ABOUT ME
 =========================== */
 
