@@ -265,16 +265,10 @@ margin:auto;
 
 /* Card Heading */
 
-.about_card h4{
-
-    color:#00d9ff;
-
-    font-size:24px;
-
-    font-weight:700;
-
-    margin-bottom:20px;
-
+.about_card h2{
+    color: #ffffff;
+    font-size: 42px;
+    font-weight: 700;
 }
 
 /* List */
@@ -771,4 +765,20 @@ SECTION TITLE CARDS
 
     box-shadow:0 12px 30px rgba(0,217,255,.25);
 
+}
+.timeline_card{
+    background:#171717;
+    color:#ffffff;
+}
+
+.timeline_card h4{
+    color:#ffffff;
+}
+
+.timeline_card h6{
+    color:#00d9ff;
+}
+
+.timeline_card p{
+    color:#d1d5db;
 }

@@ -1,7 +1,13 @@
-.site__header {
-    top: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
+.site__header{
+    top:10px;
+    left:10px;
+    right:10px;
+
+    width:auto;
+
+    padding:0;
+
+    z-index:9999;
 }
 
 .menu__button {
@@ -61,13 +67,13 @@
     height: 10px;
     width: 100%;
 }
-
+/*
 .br-right {
     width: 10px;
     right: 0;
     top: 0;
     height: 100%;
-}
+}*/
 
 .br-left {
     width: 10px;
